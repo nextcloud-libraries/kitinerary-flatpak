@@ -23,10 +23,10 @@
 
 declare(strict_types=1);
 
-namespace ChristophWurst\KItinerary\Flatpak;
+namespace Nextcloud\KItinerary\Flatpak;
 
-use ChristophWurst\KItinerary\Adapter;
-use ChristophWurst\KItinerary\Exception\KItineraryRuntimeException;
+use Nextcloud\KItinerary\Adapter;
+use Nextcloud\KItinerary\Exception\KItineraryRuntimeException;
 use Psr\Log\LoggerAwareInterface;
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
@@ -61,7 +61,7 @@ class FlatpakAdapter implements Adapter, LoggerAwareInterface
      *
      * @return void
      */
-    public function setLogger(LoggerInterface $logger)
+    public function setLogger(LoggerInterface $logger): void
     {
         $this->logger = $logger;
     }

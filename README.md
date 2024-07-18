@@ -5,6 +5,8 @@
 
 # kitinerary-flatpak
 
+[![REUSE status](https://api.reuse.software/badge/github.com/nextcloud-libraries/kitinerary-flatpak)](https://api.reuse.software/info/github.com/nextcloud-libraries/kitinerary-flatpak)
+
 Flatpak adapter for the [kitinerary extractor package](https://packagist.org/packages/nextcloud/kitinerary). This package provides an adapter that invokes [kitinerary-extractor](https://github.com/KDE/itinerary) via Flatpak.
 
 ## Installation

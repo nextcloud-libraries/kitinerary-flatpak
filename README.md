@@ -28,7 +28,7 @@ $adapter = new FlatpakAdapter();
 if (!$adapter->isAvailable()) {
     // ...
 }
-$extractor = new Extractor($adapter);
+$extractor = new ItineraryExtractor($adapter);
 
 try {
     $itinerary = $extractor->extractFromString('...');

@@ -39,8 +39,9 @@ try {
 
 ## Installation of kitinerary-extractor flatpak
 
-To install kitinerary-extractor from flatpak, you can use:
+To install kitinerary-extractor from Flatpak, you can use:
+
 ```
-flatpak remote-add --if-not-exists kdeapps --from https://distribute.kde.org/kdeapps.flatpakrepo
-flatpak install kdeapps org.kde.itinerary-extractor
+flatpak remote-add --if-not-exists kitinerary --from https://cdn.kde.org/flatpak/kitinerary-extractor-nightly/kitinerary-extractor-nightly.flatpakrepo
+flatpak install kitinerary org.kde.kitinerary-extractor
 ```

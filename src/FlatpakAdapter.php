@@ -60,7 +60,7 @@ class FlatpakAdapter implements Adapter, LoggerAwareInterface
 			1 => ['pipe', 'w']
 		];
 
-		$proc = proc_open('flatpak list --app', $descriptors, $pipes);
+		$proc = proc_open(['flatpak', 'list', '--app'], $descriptors, $pipes);
 		if (!is_resource($proc)) {
 			// Can't invoke process -> most likely Flatpak isn't available
 			return false;
